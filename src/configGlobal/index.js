@@ -1,4 +1,4 @@
-
+﻿
 
 /**
  * 全局方法，全局变量，
@@ -12,7 +12,7 @@
 let num = 0;
 const config = {
     globalColor:'red',
-    // 修改颜色的方法
+    // 全局的方法
     setColor () {
         num ++
         console.log('我是全局的方法 '+ num)
