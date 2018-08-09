@@ -9,6 +9,7 @@ import RouterDemo from '@/components/routerDemo/indexPage'    //路由
 import Child from '@/components/routerDemo/child'    //子路由
 import Track from '@/components/routerDemo/track'    //嵌套路由
 import VuexDemo from '@/components/vuexDemo/vuex'    //状态管理
+import Flexbox from '@/components/flexbox'    //flexbox
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
 			path: '/video',
 			name: 'Video',
 			component: Video
+		},
+		{
+			path: '/flexbox',
+			name: 'Flexbox',
+			component: Flexbox
 		},
 		{
 			path: '/HelloWorld',

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-        <img @click="fromChild" class="head" :src="headSrc" alt="">
+        <img @click="isTrue && fromChild" class="head" :src="headSrc" alt="">
         <!-- 基本信息 -->
         <el-row :gutter="20">
             <el-col style="line-height:40px;text-align:left;" 
@@ -16,7 +16,7 @@ export default {
 	name: 'Basics',
     data() {
         return {
-            
+            isTrue:true
         }
     },
     methods: {

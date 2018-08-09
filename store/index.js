@@ -4,21 +4,21 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 Vue.use(Vuex)
 
-// 创建一个store仓库
+ // 创建一个store仓库
  const store  = new Vuex.Store({
     //  声明 共享状态值
     state:{
         count:0
     },
 
-    // 定义获取state，getters 对象
+    // 定义获取 state，getters 对象
     getters: {
         getCount: state => {
             return state.count
         }
     },
 
-    // 定义唯一修改state的途径
+    // 定义唯一修改 state 的途径
     mutations: {
         add (state) {
             state.count++

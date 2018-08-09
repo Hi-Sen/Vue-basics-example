@@ -50,6 +50,11 @@
 						video 视频组件
 					</router-link>
 				</li>
+				<li>
+					<router-link to="/flexbox">
+						Flex box
+					</router-link>
+				</li>
 			</ul>
 		</el-aside>
 		<el-main>

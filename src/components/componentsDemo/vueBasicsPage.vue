@@ -40,16 +40,16 @@ export default {
 			msg: '个人基本消费信息表',
 			headSrc:'../../../static/head.png',   //头像路径
 			dataArr:[                             //数据源，可自定义，也可在接口返回数据中操作，
-				{name:'姓名',value:'张三'},
-				{name:'性别',value:'男'},
-				{name:'户籍',value:'广东'},
-				{name:'婚姻',value:'未婚'},
+				{name:'姓名111',value:'张三'},
+				{name:'性别111',value:'男'},
+				{name:'户籍11',value:'广东'},
+				{name:'婚姻11',value:'未婚'},
 				{name:'政治面貌',value:'无'},
 				{name:'身份证号',value:'1234567894645'},
 				{name:'身份证地址',value:'广东省广州市天河区'},
 				{name:'现居地址',value:'广东省广州市天河区'},
 			],
-			lineNumber:3                         //一行渲染几个
+			lineNumber:3                        //一行渲染几个
 		}
 	},
 	methods: {
