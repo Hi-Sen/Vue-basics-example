@@ -1,5 +1,26 @@
-这个demo 完美的展示了 前端主流框架 Vue  的基础知识，包括：
-基础指令，声明周期，插件使用，路由，组件基础，组件封装，状态管理，全局变量，全局方法，组件之间方法调用等...
+
+###  <span style="font-siez='20px'">2018 年 7 月 分享 vue 技术栈 </span>  <br/>
+
+基于公司部分产品技术栈转型使用vue，部分同事需要学习一下，快速上手，那么我很荣幸的成为了给大家分享vue技术栈的‘ ’导师‘，在这里我分享一下；<br/>
+
+讲解大纲为：（我是有一份PPT的，就不展示出来了，emmm~~）<br/>
+
+1，vue框架的简单介绍，优缺点<br/>
+
+2，vue常用指令，生命周期, 路由<br/>
+
+3，vue的常使用UI库，如：element-ui , mint-ui ， iview 等等<br/>
+
+4，常用属性， props  ，computed ， watch <br/>
+
+5，组件引用，组件通信，组件封装<br/>
+
+6，状态管理 vuex <br/>
+
+以上是我为同事讲解 vue 框架的大纲，基本上都是基础，并没有讲的很深，毕竟是为了让同事们更快的上手项目；后续在工作中也补充了很多......如：
+全局API， vue.nextTick() , vue.extend()  ,  vue.set() ,  vue.directive()  <br/>
+
+Vuex 扩展语法 mapGetters , mapStates , mapMutations , mapActions 等等；
 
 
 
