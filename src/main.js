@@ -6,6 +6,7 @@ import router from './router'
 
 // 引入全局方法
 import global from './configGlobal'
+Vue.prototype.Glo = global
 
 // 引入 store 
 import store from '../store'
@@ -14,9 +15,8 @@ import store from '../store'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
-Vue.prototype.Glo = global
 
-Vue.config.productionTip = false
+// Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({

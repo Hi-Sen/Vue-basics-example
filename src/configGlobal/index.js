@@ -11,11 +11,11 @@
 
 let num = 0;
 const config = {
-    globalColor:'red',
+    globalColor: 'red',
     // 全局的方法
     setColor () {
-        num ++
-        console.log('我是全局的方法 '+ num)
+        num++
+        console.log('我是全局的方法 ' + num)
     }
 }
 
