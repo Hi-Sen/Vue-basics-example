@@ -7,44 +7,21 @@
 
 1，vue框架的简单介绍，优缺点<br/>
 
-2，vue常用指令，生命周期, 路由<br/>
+2，vue常用指令，动态样式，事件处理 ，生命周期, 路由 ，路由钩子 , 按需加载 等 <br/>
 
-3，vue的常使用UI库，如：element-ui , mint-ui ， iview 等等<br/>
+3，vue的常使用UI库，如：element-ui , mint-ui ， iview 等等 <br/>
 
-4，常用属性， props  ，computed ， watch <br/>
+4，常用属性， props  ，computed ， watch , methods , $refs , $emit , $on  等 <br/>
 
-5，组件引用，组件通信，组件封装<br/>
+5，组件基础，组件通信，组件封装, 动态组件：component  配合 keep-live <br/>
 
 6，状态管理 vuex <br/>
 
 以上是我为同事讲解 vue 框架的大纲，基本上都是基础，并没有讲的很深，毕竟是为了让同事们更快的上手项目；后续在工作中也补充了很多......如：
-全局API， vue.nextTick() , vue.extend()  ,  vue.set() ,  vue.directive()  <br/>
+全局API， vue.nextTick , vue.extend ,  vue.set ,  vue.directive ， vue.filters  , vue.mixins <br/>
 
 Vuex 扩展语法 mapGetters , mapStates , mapMutations , mapActions 等等；
 
-setState (state, obj) {
-    Object.assign(state, obj)
-}
-
-text: {
-    handler (v, o) {
-        console.log(v, o);
-    },
-    immediate: true,   // 刷新加载 立马触发一次 handler
-    deep: true        // 可以深度检测到 person 对象的属性值的变化
-}
-
-changeText () {
-    this.text = Math.floor(Math.random() * 100)
-},
-
-filters: {
-    upCase: function (value) {
-        if (!value) return ''
-        value = value.toString()
-        return value.charAt(0).toUpperCase() + value.slice(1)
-    }
-},
 
 
 # vue-demo
